@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750279305140,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_rfCMs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_42QFQ",
+			"type":"next"
+		}
+	],
+	"id":"68532489ae040007b18807f9",
+	"lastModifiedBy":34,
+	"lcName":"hook-enable-option-visible11750275495283",
+	"modifiedTime":1750515254170,
+	"name":"Hook-enable-Option-Visible11750275495283",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rfCMs-1",
+			"id":"_rfCMs",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rfCMs-1",
+			"id":"_42QFQ",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
